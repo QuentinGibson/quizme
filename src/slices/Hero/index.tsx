@@ -21,7 +21,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
     >
-      <h1 className="text-5xl md:text-7xl font-medium text-slate-300 mx-auto">
+      <h1 className="mx-auto text-5xl font-medium text-slate-300 md:text-7xl">
         <PrismicText field={slice.primary.heading} />
       </h1>
       <PrismicRichText field={slice.primary.body} />
